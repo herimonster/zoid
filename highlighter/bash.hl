@@ -1,0 +1,6 @@
+sh
+"(?:^|[^a-zA-Z0-9])(if|fi|case|esac|for|do|done|exit|elif|else|function|in|select|then|time|until|while)(?:$|[^a-zA-Z0-9])" CL_WHITE CL_BG AT_BOLD
+"\"[^\"]*\"" CL_GREEN CL_BG AT_BOLD
+"\'[^\']*\'" CL_GREEN CL_BG AT_BOLD
+"#.*" CL_BLUE CL_BG AT_NORMAL
+

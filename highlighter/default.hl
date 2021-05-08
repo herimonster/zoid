@@ -1,0 +1,5 @@
+default
+"\"[^\"]*\"" CL_GREEN CL_BG AT_BOLD
+"\'[^\']*\'" CL_GREEN CL_BG AT_BOLD
+"#.*" CL_BLUE CL_BG AT_NORMAL
+

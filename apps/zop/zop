@@ -1,0 +1,5 @@
+#!/bin/sh
+
+
+PYTHONPATH=$PYTHONPATH:../../ python3 zop.py $@
+

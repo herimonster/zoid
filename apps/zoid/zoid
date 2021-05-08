@@ -1,0 +1,4 @@
+#!/bin/sh
+
+
+PYTHONPATH=$PYTHONPATH:../../highlighter:../../ python3 zoidapp.py $@

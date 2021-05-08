@@ -1,0 +1,13 @@
+py
+"def [0-9A-Z_]+" CL_BLUE CL_BG AT_BOLD
+"(?:^|[^a-zA-Z0-9])(and|assert|break|class|continue|def|del|elif|else|except|exec|finally|for|from|global|if|import|in|is|lambda|map|not|or|pass|print|raise|return|try|while)(?:$|[^a-zA-Z0-9])" CL_WHITE CL_BG AT_BOLD
+# "[\'][^\']*[^\\][\']" CL_GREEN CL_BG AT_BOLD 
+# "[\']{3}.*[^\\][\']{3}" CL_GREEN CL_BG AT_BOLD
+# "[\"][^\"]*[^\\][\"]" CL_GREEN CL_BG AT_BOLD
+# "[\"]{3}.*[^\\][\"]{3}" CL_GREEN CL_BG AT_BOLD
+"\"[^\"]*\"" CL_GREEN CL_BG AT_BOLD
+"\'[^\']*\'" CL_GREEN CL_BG AT_BOLD
+"\"\"\"[^\"\"\"]*\"\"\"" CL_GREEN CL_BG AT_BOLD
+"\'\'\'[^\'\'\']*\'\'\'" CL_GREEN CL_BG AT_BOLD
+"__[a-zA-Z0-9]+__" CL_WHITE CL_BG AT_BOLD
+"#.*" CL_BLUE CL_BG AT_NORMAL
